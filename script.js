@@ -16,6 +16,29 @@ console.log(var1 + var2);
 console.log(typeof(resultado2));
 
 
+let variavelObjeto ={
+    nome: "João Paulo",
+    idade: 18,
+    altura: 1.73,
+    cpf: "05202131143",
+    endereco: {
+        rua: "abc",
+        bairro: "ujgy",
+        numero: 1,
+        apartamento: {
+            aaaa:"ddd",
+            bbbb: "gvdsvv"
+        }
+    }
+}
+
+if(variavelObjeto.idade >= 18) {
+    console.log("Pode entrar no meu site!")
+} else {
+    console.log("Não pode entrar no meu site!")
+}
+
+console.log(variavelObjeto);
 
 
 /*
